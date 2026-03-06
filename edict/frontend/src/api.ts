@@ -1,6 +1,6 @@
 /**
  * API 层 — 对接 dashboard/server.py
- * 生产环境从同源 (port 7891) 请求，开发环境可通过 VITE_API_URL 指定
+ * 生产环境从同源 (port 8989) 请求，开发环境可通过 VITE_API_URL 指定
  */
 
 const API_BASE = import.meta.env.VITE_API_URL || '';
