@@ -4,11 +4,22 @@
 
 ## 快速安装
 
+### 方式一：使用预置账号（推荐）
+
+已配置好用户名 `Alexander`，密码 `qrz000328`：
+
+```bash
+cd /path/to/edict
+sudo bash nginx/setup.sh Alexander qrz000328
+```
+
+### 方式二：自定义账号
+
 ```bash
 # 进入项目目录
 cd /path/to/edict
 
-# 运行安装脚本（需要 sudo）
+# 运行安装脚本（需要 sudo），交互式设置密码
 sudo bash nginx/setup.sh
 
 # 或指定用户名和密码
